@@ -1,0 +1,112 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(243, 243, 243);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* NAVBAR STUFF */
+nav {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid rgb(204, 204, 204);
+  background-color: white;
+}
+
+.navlink {
+  text-decoration: none;
+  color: black;
+  font-size: 0.85em;
+  margin-left: 20px;
+  padding-right: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  letter-spacing: 0.22em;
+  font-weight: lighter;
+  border-right: 1px solid rgb(204, 204, 204);
+}
+
+a {
+  color: black;
+}
+
+.navlink:hover {
+  font-size: 0.85em;
+  margin-left: 20px;
+  padding-right: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  letter-spacing: 0.22em;
+  font-weight: bold;
+  border-right: 1px solid rgb(204, 204, 204);
+}
+
+#main-navlink {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-weight: bold;
+  font-size: 1.25em;
+  border-right: 1px solid rgb(204, 204, 204);
+}
+
+/* MAINPAGE STUFF */
+#mainPage {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between; */
+  max-width: 90%;
+  /* border: 2px solid; */
+  margin: auto;
+  margin-top: 45px;
+}
+
+#biography {
+  margin-right: 5%;
+}
+
+#nameAndCaption {
+  padding-bottom: 13%;
+  border-bottom: 1px solid rgb(204, 204, 204);
+}
+
+.nameAndCaption {
+  letter-spacing: 0.2em;
+  font-family: 'Raleway', Helvetica, sans-serif;
+}
+
+.bioName {
+  font-weight: extra-bold;
+  font-size: 2em;
+  margin-top: 1.2em;
+  margin-bottom: none;
+}
+
+#alternatingPages {
+  border: 1px solid rgb(204, 204, 204);
+  background-color: white;
+  padding: 5%;
+  min-width: 65%;
+}
+
+.emailAddress {
+  border-bottom: 1px dotted;
+  color: grey;
+}
+
+#bioAbout {
+  margin-top: 8%;
+}
+
+.icon {
+  padding-right: 12%;
+}

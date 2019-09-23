@@ -16,7 +16,7 @@ export default class MainPage extends Component {
               Hi, I'm Zach, and I'm a fullstack web-developer based in New York.
               I'm experienced in JavasCript, Node, Express, React, Redux,
               PostgreSQL, and Firebase, but have a passion for learning new
-              things and emergin technologies.
+              platforms and emerging technologies.
             </p>
             <br />
             <br />

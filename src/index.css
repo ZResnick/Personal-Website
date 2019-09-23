@@ -19,6 +19,11 @@ nav {
   flex-direction: row;
   border-bottom: 1px solid rgb(204, 204, 204);
   background-color: white;
+  justify-content: space-between;
+}
+
+.rightLinks {
+  display: flex;
 }
 
 .navlink {
@@ -105,6 +110,10 @@ a {
   padding-right: 12%;
 }
 
+.iconAbout {
+  padding-right: 5%;
+}
+
 .buttons {
   margin-top: 40px;
   padding: 15px;
@@ -128,7 +137,6 @@ a {
 #alternatingPages {
   border: 1px solid rgb(204, 204, 204);
   background-color: white;
-  /* padding: 5%; */
   min-width: 65%;
 }
 
@@ -160,9 +168,22 @@ a {
 
 .individualProject {
   border: 1px solid rgb(204, 204, 204);
+  margin-bottom: 10%;
+}
+
+.divlab {
   background-image: url('/images/divlab.png');
   background-size: 100%;
-  margin-bottom: 10%;
+}
+
+.groover {
+  background-image: url('/images/groover.png');
+  background-size: 100%;
+}
+
+.graceShredder {
+  background-image: url('/images/graceShredder.png');
+  background-size: 100%;
 }
 
 .projectHeader {

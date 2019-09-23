@@ -6,23 +6,27 @@ export default class Navbar extends Component {
     return (
       <div>
         <nav>
-          <div id="main-navlink" className="navlink">
-            <Link to="/home">ZACHARY L. RESNICK</Link>
+          <div>
+            <div id="main-navlink" className="navlink">
+              <Link to="/home">ZACHARY L. RESNICK</Link>
+            </div>
           </div>
-          <div className="navlink">
-            <Link to="/home">ABOUT ME</Link>
-          </div>
-          <div className="navlink">
-            <Link to="/projects">PROJECTS</Link>
-          </div>
-          <div className="navlink">
-            <Link to="/resume">RESUME</Link>
-          </div>
-          <div className="navlink">
-            <Link to="/education">EDUCATION</Link>
-          </div>
-          <div className="navlink">
-            <Link to="/contact">CONTACT</Link>
+          <div className="rightLinks">
+            {/* <div className="navlink">
+              <Link to="/home">ABOUT ME</Link>
+            </div> */}
+            <div className="navlink">
+              <Link to="/projects">PROJECTS</Link>
+            </div>
+            <div className="navlink">
+              <Link to="/resume">RESUME</Link>
+            </div>
+            {/* <div className="navlink">
+              <Link to="/education">EDUCATION</Link>
+            </div> */}
+            <div className="navlink">
+              <Link to="/contact">CONTACT</Link>
+            </div>
           </div>
         </nav>
       </div>

@@ -7,9 +7,7 @@ export default class Projects extends Component {
         <div className="pageHeader">
           <div>
             <h1 className="nameAndCaption">PROJECTS</h1>
-            <p className="caption">
-              A SELECTION OF PROJECTS THAT I'M NOT TOO ASHAMED OF
-            </p>
+            <p className="caption">A SELECTION OF MY FAVORITE PROJECTS</p>
           </div>
           <div>
             <a
@@ -25,8 +23,20 @@ export default class Projects extends Component {
         <div className="pageContent">
           <div className="individualProject">
             <div className="projectHeader">
-              <h5>DIVLAB</h5>
-              <p>AUGUST, 2019</p>
+              <div>
+                <h5>DIVLAB</h5>
+                <p>AUGUST, 2019</p>
+              </div>
+              <div>
+                <a
+                  className="buttons resumeDownloadBtn"
+                  href="https://github.com/ZResnick"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  SEE CODE
+                </a>
+              </div>
             </div>
             <div className="projectFooter">
               <p>

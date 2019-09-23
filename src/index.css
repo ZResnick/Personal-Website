@@ -172,6 +172,8 @@ a {
   padding: 3%;
   border-bottom: 1px solid rgb(204, 204, 204);
   background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-between;
 }
 
 .projectFooter {

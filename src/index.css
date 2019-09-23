@@ -71,7 +71,8 @@ a {
 }
 
 #biography {
-  margin-right: 5%;
+  margin-right: 3%;
+  min-width: 30%;
 }
 
 #nameAndCaption {
@@ -85,17 +86,10 @@ a {
 }
 
 .bioName {
-  font-weight: extra-bold;
+  font-weight: bold;
   font-size: 2em;
   margin-top: 1.2em;
   margin-bottom: none;
-}
-
-#alternatingPages {
-  border: 1px solid rgb(204, 204, 204);
-  background-color: white;
-  padding: 5%;
-  min-width: 65%;
 }
 
 .emailAddress {
@@ -109,4 +103,83 @@ a {
 
 .icon {
   padding-right: 12%;
+}
+
+.buttons {
+  margin-top: 40px;
+  padding: 15px;
+  border: 1px solid rgb(204, 204, 204);
+  font-family: 'Raleway', Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 0.75em;
+  letter-spacing: 0.25em;
+}
+
+.buttons:hover {
+  margin-top: 40px;
+  padding: 15px;
+  border: 1px solid #4183c4;
+  font-family: 'Raleway', Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 0.75em;
+  letter-spacing: 0.25em;
+}
+
+#alternatingPages {
+  border: 1px solid rgb(204, 204, 204);
+  background-color: white;
+  /* padding: 5%; */
+  min-width: 65%;
+}
+
+.caption {
+  letter-spacing: 0.2em;
+  font-family: 'Raleway', Helvetica, sans-serif;
+  font-size: 0.8em;
+  font-weight: 600;
+}
+
+.pageHeader {
+  border-bottom: 1px solid rgb(204, 204, 204);
+  padding: 7%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.pageContent {
+  padding: 5%;
+}
+
+.resumeImg {
+  width: 100%;
+  border: 1px solid rgb(204, 204, 204);
+}
+
+/* PROJECTS */
+
+.individualProject {
+  border: 1px solid rgb(204, 204, 204);
+  background-image: url('/images/divlab.png');
+  background-size: 100%;
+  margin-bottom: 10%;
+}
+
+.projectHeader {
+  letter-spacing: 0.2em;
+  font-family: 'Raleway', Helvetica, sans-serif;
+  font-size: 0.8em;
+  padding: 3%;
+  border-bottom: 1px solid rgb(204, 204, 204);
+  background-color: rgb(255, 255, 255);
+}
+
+.projectFooter {
+  margin-top: 50%;
+  padding: 3%;
+  background-color: rgba(255, 255, 255, 0.801);
+}
+
+.copyright {
+  font-size: 0.6em;
 }

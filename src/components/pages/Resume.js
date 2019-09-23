@@ -4,19 +4,36 @@ export default class Resume extends Component {
   render() {
     return (
       <div>
-        <p>RESUME</p>
-        <p>RESUME</p>
-        <p>RESUME</p>
-        <p>RESUME</p>
-        <p>RESUME</p>
-        <p>RESUME</p>
-        <p>RESUME</p>
-        <p>RESUME</p>
-        <p>RESUME</p>
-        <p>RESUME</p>
-        <p>RESUME</p>
-        <p>RESUME</p>
-        <p>RESUME</p>
+        <div className="pageHeader">
+          <div>
+            <h1 className="nameAndCaption">MY RESUME</h1>
+            <p className="caption">
+              FEEL FREE TO REACH OUT TO ME AT: <br />
+              <a
+                className="nameAndCaption emailAddress"
+                href="mailto:zachary.l.resnick@gmail.com"
+              >
+                ZACHARY.L.RESNICK@GMAIL.COM
+              </a>
+            </p>
+          </div>
+          <div>
+            <a
+              className="buttons resumeDownloadBtn"
+              href="/images/Zach.Resnick.Resume.png"
+              download="Zach.Resnick.Resume.png"
+            >
+              DOWNLOAD MY RESUME
+            </a>
+          </div>
+        </div>
+        <div className="pageContent">
+          <img
+            className="resumeImg"
+            alt="My Resume"
+            src="/images/Zach.Resnick.Resume.png"
+          ></img>
+        </div>
       </div>
     );
   }

@@ -1,7 +1,16 @@
 import React, { Component } from 'react';
 import { Button, Card, Icon, Image } from 'semantic-ui-react';
-import Routes from './Routes';
 import { Link } from 'react-router-dom';
+// import Routes from './Routes';
+
+//
+import { Route, Switch } from 'react-router-dom';
+import AboutMe from './pages/AboutMe';
+import Projects from './pages/Projects';
+import Resume from './pages/Resume';
+import Education from './pages/Education';
+import ContactMe from './pages/ContactMe';
+//
 
 export default class MainPage extends Component {
   render() {
@@ -74,7 +83,12 @@ export default class MainPage extends Component {
           </div>
         </div>
         <div id="alternatingPages">
-          <Routes />
+          <Switch>
+            <Route exact path="/projects" component={Projects} />
+            <Route exact path="/resume" component={Resume} />
+            <Route exact path="/contact" component={ContactMe} />
+            <Route component={Projects} />
+          </Switch>
         </div>
       </div>
     );

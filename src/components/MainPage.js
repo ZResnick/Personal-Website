@@ -14,7 +14,7 @@ export default class MainPage extends Component {
             <h4 className="nameAndCaption">ABOUT ME</h4>
             <p>
               Hi, I'm Zach, and I'm a fullstack web-developer based in New York.
-              I'm experienced in JavasCript, Node, Express, React, Redux,
+              I'm experienced in JavaScript, Node, Express, React, Redux,
               PostgreSQL, and Firebase, but have a passion for learning new
               platforms and emerging technologies.
             </p>

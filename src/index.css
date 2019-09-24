@@ -19,7 +19,7 @@ nav {
   flex-direction: row;
   border-bottom: 1px solid rgb(204, 204, 204);
   background-color: white;
-  justify-content: space-between;
+  /* justify-content: space-between; */
 }
 
 .rightLinks {

@@ -7,8 +7,8 @@ export default class Navbar extends Component {
       <div>
         <nav>
           <div>
-            <div id="main-navlink" className="navlink">
-              <Link to="/home">ZACHARY L. RESNICK</Link>
+            <div id="main-navlink" className="navlink nameAndCaption">
+              <Link to="/">ZACHARY L. RESNICK</Link>
             </div>
           </div>
           <div className="rightLinks">

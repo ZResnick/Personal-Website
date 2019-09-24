@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import { Button, Card, Icon, Image } from 'semantic-ui-react';
-import Routes from './Routes';
+import { Icon, Image } from 'semantic-ui-react';
 import { Link } from 'react-router-dom';
+import Routes from './Routes';
 
 export default class MainPage extends Component {
   render() {

@@ -260,3 +260,9 @@ a {
 .copyright {
   font-size: 0.6em;
 }
+
+@media (max-width: 768px) {
+  .rightLinks {
+    display: none;
+  }
+}

@@ -12,18 +12,12 @@ export default class Navbar extends Component {
             </div>
           </div>
           <div className="rightLinks">
-            {/* <div className="navlink">
-              <Link to="/home">ABOUT ME</Link>
-            </div> */}
             <div className="navlink">
               <Link to="/projects">PROJECTS</Link>
             </div>
             <div className="navlink">
               <Link to="/resume">RESUME</Link>
             </div>
-            {/* <div className="navlink">
-              <Link to="/education">EDUCATION</Link>
-            </div> */}
             <div className="navlink">
               <Link to="/contact">CONTACT</Link>
             </div>

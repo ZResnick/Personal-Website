@@ -13,13 +13,67 @@ code {
     monospace;
 }
 
+/* HOMEPAGE ANIMATIONS */
+.animate-welcome {
+  padding-top: 20%;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 10;
+  color: black;
+  font-size: 60px;
+  animation-name: moveInRight;
+  animation-duration: 2s;
+  text-align: center;
+  /* margin-right: 4%; */
+}
+
+@keyframes moveInRight {
+  0% {
+    opacity: 0;
+    transform: translateY(250px);
+  }
+  80% {
+    transform: translateY(0px);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+.animate-caption {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 10;
+  color: black;
+  letter-spacing: 4px;
+  animation-name: captionAnimation;
+  animation-duration: 3.2s;
+  text-align: center;
+  /* margin-right: 4%; */
+}
+
+@keyframes captionAnimation {
+  0% {
+    opacity: 0;
+  }
+  60% {
+    opacity: 0;
+  }
+  80% {
+    opacity: 1;
+  }
+}
+
 /* NAVBAR STUFF */
 nav {
   display: flex;
   flex-direction: row;
   border-bottom: 1px solid rgb(204, 204, 204);
   background-color: white;
-  /* justify-content: space-between; */
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+  justify-content: space-between;
 }
 
 .rightLinks {
@@ -72,7 +126,7 @@ a {
   max-width: 90%;
   /* border: 2px solid; */
   margin: auto;
-  margin-top: 45px;
+  margin-top: 90px;
 }
 
 #biography {

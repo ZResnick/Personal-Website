@@ -10,6 +10,9 @@ import ContactMe from './components/pages/ContactMe';
 import { Route, Switch } from 'react-router-dom';
 
 function App() {
+  console.log(
+    "If you're reading this, it means you may be in a position to hire software developers!  If so, please feel free to reach out to me at Zachary.L.Resnick@Gmail.com, as I'm always open to discussing new opportunities.  Thanks for visiting my site!"
+  );
   return (
     <Router history={history}>
       <Navbar />

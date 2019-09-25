@@ -147,7 +147,7 @@ a {
 .bioName {
   font-weight: bold;
   font-size: 2em;
-  margin-top: 1.2em;
+  padding-top: 0.8em;
   margin-bottom: none;
 }
 
@@ -168,7 +168,7 @@ a {
   padding-right: 5%;
 }
 
-.buttons {
+.myButtons {
   margin-top: 40px;
   padding: 15px;
   border: 1px solid rgb(204, 204, 204);
@@ -178,7 +178,7 @@ a {
   letter-spacing: 0.25em;
 }
 
-.buttons:hover {
+.myButtons:hover {
   margin-top: 40px;
   padding: 15px;
   border: 1px solid #4183c4;
@@ -249,6 +249,7 @@ a {
   background-color: rgb(255, 255, 255);
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .projectFooter {
@@ -261,8 +262,61 @@ a {
   font-size: 0.6em;
 }
 
-@media (max-width: 768px) {
+.hamburgerLinks {
+  display: none;
+}
+
+/* MEDIA QUERY */
+@media (max-width: 1000px) {
   .rightLinks {
     display: none;
+  }
+
+  .hamburgerLinks {
+    display: inline;
+    padding-top: 7px;
+    padding-right: 25px;
+  }
+
+  #bars {
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 6px;
+    padding-left: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 1px;
+    align-content: center;
+  }
+
+  #mainPage {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    max-width: 90%;
+    /* border: 2px solid; */
+    margin: auto;
+    margin-top: 90px;
+    margin-bottom: 20px;
+  }
+
+  .hide {
+    display: none;
+  }
+
+  #nameAndCaption {
+    padding-bottom: 7%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .sideBio {
+    max-width: 60%;
+  }
+
+  .headshot {
+    min-width: 200px;
+    max-height: 210px;
+    margin-right: 30px;
   }
 }

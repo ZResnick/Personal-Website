@@ -11,7 +11,7 @@ export default class Projects extends Component {
           </div>
           <div>
             <a
-              className="buttons resumeDownloadBtn"
+              className="myButtons resumeDownloadBtn"
               href="https://github.com/ZResnick"
               target="_blank"
               rel="noopener noreferrer"
@@ -29,7 +29,7 @@ export default class Projects extends Component {
               </div>
               <div>
                 <a
-                  className="buttons resumeDownloadBtn"
+                  className="myButtons singleProjectButton resumeDownloadBtn"
                   href="https://github.com/ZResnick/divlab"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -54,7 +54,7 @@ export default class Projects extends Component {
               </div>
               <div>
                 <a
-                  className="buttons resumeDownloadBtn"
+                  className="myButtons resumeDownloadBtn"
                   href="https://github.com/ZResnick/groover"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -81,7 +81,7 @@ export default class Projects extends Component {
               </div>
               <div>
                 <a
-                  className="buttons resumeDownloadBtn"
+                  className="myButtons resumeDownloadBtn"
                   href="https://github.com/ZResnick/grace-shopper"
                   target="_blank"
                   rel="noopener noreferrer"

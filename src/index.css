@@ -364,4 +364,54 @@ a {
   .nameAndCaption {
     font-size: 1.7em;
   }
+
+  .animate-welcome {
+    font-size: 4em;
+    padding-top: 40%;
+    font-family: 'Raleway', Helvetica, sans-serif;
+    font-weight: black;
+    color: black;
+    /* font-size: 60px; */
+    animation-name: moveInRight;
+    animation-duration: 4s;
+    text-align: center;
+    /* margin-right: 4%; */
+  }
+
+  @keyframes moveInRight {
+    0% {
+      opacity: 0;
+      transform: translateY(250px);
+    }
+    50% {
+      transform: translateY(0px);
+    }
+    100% {
+      opacity: 1;
+      transform: translate(0);
+    }
+  }
+
+  .animate-caption {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 10;
+    color: black;
+    letter-spacing: 4px;
+    animation-name: captionAnimation;
+    animation-duration: 3.2s;
+    text-align: center;
+    /* margin-right: 4%; */
+  }
+
+  @keyframes captionAnimation {
+    0% {
+      opacity: 0;
+    }
+    60% {
+      opacity: 0;
+    }
+    80% {
+      opacity: 1;
+    }
+  }
 }

@@ -16,8 +16,8 @@ code {
 /* HOMEPAGE ANIMATIONS */
 .animate-welcome {
   padding-top: 20%;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 10;
+  font-family: 'Raleway', Helvetica, sans-serif;
+  font-weight: black;
   color: black;
   font-size: 60px;
   animation-name: moveInRight;

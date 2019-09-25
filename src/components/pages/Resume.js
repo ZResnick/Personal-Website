@@ -19,11 +19,11 @@ export default class Resume extends Component {
           </div>
           <div>
             <a
-              className="buttons resumeDownloadBtn"
+              className="myButtons resumeDownloadBtn"
               href="/images/Zach.Resnick.Resume.png"
               download="Zach.Resnick.Resume.png"
             >
-              DOWNLOAD MY RESUME
+              DOWNLOAD
             </a>
           </div>
         </div>

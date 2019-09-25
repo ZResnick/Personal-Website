@@ -9,26 +9,33 @@ export default class MainPage extends Component {
       <div id="mainPage">
         <div id="biography">
           <div id="nameAndCaption">
-            <Image src="images/ZacharyResnick.png" size="small" circular />
-            <p className="bioName nameAndCaption">ZACHARY RESNICK</p>
-            <h4 className="nameAndCaption">ABOUT ME</h4>
-            <p>
-              Hi, I'm Zach, and I'm a fullstack web-developer based in New York.
-              I'm experienced in JavaScript, Node, Express, React, Redux,
-              PostgreSQL, and Firebase, but have a passion for learning new
-              platforms and emerging technologies.
-            </p>
-            <br />
-            <br />
+            <Image
+              src="images/ZacharyResnick.png"
+              size="small"
+              circular
+              className="headshot"
+            />
+            <div className="sideBio">
+              <p className="bioName nameAndCaption">ZACHARY RESNICK</p>
+              <h4 className="nameAndCaption">ABOUT ME</h4>
+              <p>
+                Hi, I'm Zach, and I'm a fullstack web-developer based in New
+                York. I'm experienced in JavaScript, Node, Express, React,
+                Redux, PostgreSQL, and Firebase, but have a passion for learning
+                new platforms and emerging technologies.
+              </p>
+            </div>
+            <br className="hide" />
+            <br className="hide" />
             <a
-              className="nameAndCaption emailAddress"
+              className="nameAndCaption emailAddress hide"
               href="mailto:zachary.l.resnick@gmail.com"
             >
               ZACHARY.L.RESNICK@GMAIL.COM
             </a>
-            <br />
-            <br />
-            <div className="iconList">
+            <br className="hide" />
+            <br className="hide" />
+            <div className="iconList hide">
               <a
                 href="https://www.linkedin.com/in/zachresnick1/"
                 target="_blank"
@@ -62,15 +69,17 @@ export default class MainPage extends Component {
               </a>
             </div>
           </div>
-          <div id="bioAbout">
+          <div id="bioAbout" className="hide">
             <br />
-            <Link className="buttons" to="/resume">
+            <Link className="myButtons" to="/resume">
               LEARN MORE
             </Link>
           </div>
-          <br />
+          <br className="hide" />
           <div>
-            <p className="nameAndCaption copyright">© ZACHARY L. RESNICK</p>
+            <p className="nameAndCaption copyright hide">
+              © ZACHARY L. RESNICK
+            </p>
           </div>
         </div>
         <div id="alternatingPages">
